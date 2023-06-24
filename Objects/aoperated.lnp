@@ -1,0 +1,3 @@
+".\Objects\aoperated.obj" 
+TO ".\Objects\aoperated" 
+PRINT(".\Listings\aoperated.m51")

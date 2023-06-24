@@ -1,0 +1,42 @@
+A51 MACRO ASSEMBLER  AOPERATED                                                            05/10/2023 22:40:36 PAGE     1
+
+
+MACRO ASSEMBLER A51 V8.2.7.0
+OBJECT MODULE PLACED IN .\Objects\aoperated.obj
+ASSEMBLER INVOKED BY: C:\Keil_v5\C51\BIN\A51.EXE aoperated.asm SET(SMALL) DEBUG PRINT(.\Listings\aoperated.lst) OBJECT(.
+                      \Objects\aoperated.obj) EP
+
+LOC  OBJ            LINE     SOURCE
+
+0000 7425              1     mov A, #25H
+0002 75F012            2     mov B, #12H
+0005 25F0              3     add A,B
+0007 F540              4     mov 40H,A
+0009 7425              5     mov A,#25H
+000B 95F0              6     subb A,B
+000D F541              7     mov 41H,A
+000F 7425              8     mov A,#25H
+0011 A4                9     MUL AB
+0012 F542             10     mov 42H,A
+0014 85F043           11     mov 43H,B
+0017 7425             12     mov A,#25H
+0019 75F012           13     mov B,#12H
+001C 84               14     div AB
+001D F544             15     mov 44H,A
+001F 85F045           16     mov 45H,B
+                      17     end
+A51 MACRO ASSEMBLER  AOPERATED                                                            05/10/2023 22:40:36 PAGE     2
+
+SYMBOL TABLE LISTING
+------ ----- -------
+
+
+N A M E             T Y P E  V A L U E   ATTRIBUTES
+
+B. . . . . . . . .  D ADDR   00F0H   A   
+
+
+REGISTER BANK(S) USED: 0 
+
+
+ASSEMBLY COMPLETE.  0 WARNING(S), 0 ERROR(S)
